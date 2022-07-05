@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Assignment.create(name: 'Assignment 1', url: 'https://www.google.com/')
+Assignment.create(name: 'Assignment 2', url: 'https://www.yahoo.com/')
+Assignment.create(name: 'Assignment 3', url: 'https://www.gmail.com/')
