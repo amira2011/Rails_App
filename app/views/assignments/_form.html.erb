@@ -1,0 +1,16 @@
+ <%= form_with model:@assignment, local: false do |form| %>
+
+
+  
+
+  <div class="mb-3">
+  <%= form.text_field :name, placeholder: "Assignment Name", class: "form-control" %> 
+  </div>
+  <div class="mb-3">
+  <%= form.text_field :url, placeholder: "Assignment URL" , class: "form-control" %> 
+    </div>
+
+  <%= form.submit 'Submit', class:'btn btn-primary'    %>
+  <%= link_to "Back", assignments_path  %>
+
+<% end %> 
